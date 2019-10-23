@@ -1,0 +1,147 @@
+\hypertarget{class_operations_1_1_data_operations_1_1_populate_n_e_t_object}{}\section{Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object Class Reference}
+\label{class_operations_1_1_data_operations_1_1_populate_n_e_t_object}\index{Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object@{Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object}}
+
+
+Class with methods for populating custom object-\/types  
+
+
+
+
+Inheritance diagram for Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_operations_1_1_data_operations_1_1_populate_n_e_t_object__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_operations_1_1_data_operations_1_1_populate_n_e_t_object__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_post}{Post} $>$ \hyperlink{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a780372790782b34a234524055c1afec5}{Populate\+Posts} (dynamic response)
+\begin{DoxyCompactList}\small\item\em Populates a list of Post-\/objects \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_comment}{Comment} $>$ \hyperlink{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a6573ae438326c9fb036ba38af6cb0d16}{Populate\+Comments} (dynamic response, string origin\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Populates a list of Comment-\/objects \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_feed}{Feed} $>$ \hyperlink{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a31da696e614215afced22da40a5b3f20}{Populate\+Feed} (dynamic response)
+\begin{DoxyCompactList}\small\item\em Populates a list of Feed objects \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class with methods for populating custom object-\/types 
+
+
+
+Definition at line 22 of file Populate\+N\+E\+T\+Object.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}!Populate\+Comments@{Populate\+Comments}}
+\index{Populate\+Comments@{Populate\+Comments}!Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}}
+\subsubsection[{\texorpdfstring{Populate\+Comments(dynamic response, string origin\+\_\+type)}{PopulateComments(dynamic response, string origin_type)}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Comment}$>$ Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object.\+Populate\+Comments (
+\begin{DoxyParamCaption}
+\item[{dynamic}]{response, }
+\item[{string}]{origin\+\_\+type}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a6573ae438326c9fb036ba38af6cb0d16}{}\label{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a6573ae438326c9fb036ba38af6cb0d16}
+
+
+Populates a list of Comment-\/objects 
+
+\begin{DoxyReturn}{Returns}
+A list of Comment-\/objects
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em response} & A list of dynamic objects from Get\+Async.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_data_operations_1_1_i_populate_n_e_t_object_ac71d6a76fa87075a7bee781e0e82aa3e}{Operations.\+Data\+Operations.\+I\+Populate\+N\+E\+T\+Object}.
+
+
+
+Definition at line 82 of file Populate\+N\+E\+T\+Object.\+cs.
+
+
+
+References Data.\+Facebook\+Objects.\+Application.\+category, Data.\+Facebook\+Objects.\+Comment.\+created\+\_\+time, and Data.\+Facebook\+Objects.\+Comment.\+message.
+
+\index{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}!Populate\+Feed@{Populate\+Feed}}
+\index{Populate\+Feed@{Populate\+Feed}!Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}}
+\subsubsection[{\texorpdfstring{Populate\+Feed(dynamic response)}{PopulateFeed(dynamic response)}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Feed}$>$ Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object.\+Populate\+Feed (
+\begin{DoxyParamCaption}
+\item[{dynamic}]{response}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a31da696e614215afced22da40a5b3f20}{}\label{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a31da696e614215afced22da40a5b3f20}
+
+
+Populates a list of Feed objects 
+
+\begin{DoxyReturn}{Returns}
+A list of Feed objects
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em response} & A list of dynamic objects from Get\+Async.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_data_operations_1_1_i_populate_n_e_t_object_a09f34c1fdef92c7c02f6ae8b47caef89}{Operations.\+Data\+Operations.\+I\+Populate\+N\+E\+T\+Object}.
+
+
+
+Definition at line 170 of file Populate\+N\+E\+T\+Object.\+cs.
+
+
+
+References Data.\+Facebook\+Objects.\+Feed.\+message.
+
+\index{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}!Populate\+Posts@{Populate\+Posts}}
+\index{Populate\+Posts@{Populate\+Posts}!Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object@{Operations\+::\+Data\+Operations\+::\+Populate\+N\+E\+T\+Object}}
+\subsubsection[{\texorpdfstring{Populate\+Posts(dynamic response)}{PopulatePosts(dynamic response)}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Post}$>$ Operations.\+Data\+Operations.\+Populate\+N\+E\+T\+Object.\+Populate\+Posts (
+\begin{DoxyParamCaption}
+\item[{dynamic}]{response}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a780372790782b34a234524055c1afec5}{}\label{class_operations_1_1_data_operations_1_1_populate_n_e_t_object_a780372790782b34a234524055c1afec5}
+
+
+Populates a list of Post-\/objects 
+
+\begin{DoxyReturn}{Returns}
+A list of Post-\/objects
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em response} & A list of dynamic objects from Get\+Async.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_data_operations_1_1_i_populate_n_e_t_object_a404db639d5476203f9aabfe79d10c6ab}{Operations.\+Data\+Operations.\+I\+Populate\+N\+E\+T\+Object}.
+
+
+
+Definition at line 29 of file Populate\+N\+E\+T\+Object.\+cs.
+
+
+
+References Data.\+Facebook\+Objects.\+Post.\+status\+\_\+type.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Operations/\+Data\+Operations/\hyperlink{_populate_n_e_t_object_8cs}{Populate\+N\+E\+T\+Object.\+cs}\end{DoxyCompactItemize}

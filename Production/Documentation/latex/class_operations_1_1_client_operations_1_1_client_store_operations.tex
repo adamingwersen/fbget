@@ -1,0 +1,193 @@
+\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations}{}\section{Operations.\+Client\+Operations.\+Client\+Store\+Operations Class Reference}
+\label{class_operations_1_1_client_operations_1_1_client_store_operations}\index{Operations.\+Client\+Operations.\+Client\+Store\+Operations@{Operations.\+Client\+Operations.\+Client\+Store\+Operations}}
+
+
+Inheritance diagram for Operations.\+Client\+Operations.\+Client\+Store\+Operations\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_operations_1_1_client_operations_1_1_client_store_operations__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Operations.\+Client\+Operations.\+Client\+Store\+Operations\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_operations_1_1_client_operations_1_1_client_store_operations__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_aac158f2176257f4bc25f7cadbd691314}{Client\+Store\+Operations} (\hyperlink{interface_client_1_1_i_d_b_client}{I\+D\+B\+Client} db\+Client)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Operations.\+Client\+Operations.\+Client\+Store\+Operations class. \end{DoxyCompactList}\item 
+async Task \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_aee5d81f7d7dc12cffba2f01ec106bb62}{Write\+Posts\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_post}{Post} $>$ data)
+\begin{DoxyCompactList}\small\item\em Writes chunks of posts to a mongo\+DB collection \end{DoxyCompactList}\item 
+async Task \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_aafbb730be7ef14c4ee434266a3600f04}{Write\+Comments\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_comment}{Comment} $>$ data)
+\begin{DoxyCompactList}\small\item\em Writes chunks of comments to a mongo\+DB collection \end{DoxyCompactList}\item 
+async Task \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_a4819e9a632eab5db4e21644512205377}{Write\+Feed\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_feed}{Feed} $>$ data)
+\begin{DoxyCompactList}\small\item\em Writes chunks of feeds to a mongo\+DB collection \end{DoxyCompactList}\item 
+async Task$<$ List$<$ object $>$ $>$ \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_a998a7bdb46661c725cd8ff2af53c1274}{Read\+Distinct\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, string identifier)
+\begin{DoxyCompactList}\small\item\em Reads distinct observations from a mongo\+DB collection \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 26 of file Client\+Store\+Operations.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}!Client\+Store\+Operations@{Client\+Store\+Operations}}
+\index{Client\+Store\+Operations@{Client\+Store\+Operations}!Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Client\+Store\+Operations(\+I\+D\+B\+Client db\+Client)}{ClientStoreOperations(IDBClient dbClient)}}]{\setlength{\rightskip}{0pt plus 5cm}Operations.\+Client\+Operations.\+Client\+Store\+Operations.\+Client\+Store\+Operations (
+\begin{DoxyParamCaption}
+\item[{{\bf I\+D\+B\+Client}}]{db\+Client}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations_aac158f2176257f4bc25f7cadbd691314}{}\label{class_operations_1_1_client_operations_1_1_client_store_operations_aac158f2176257f4bc25f7cadbd691314}
+
+
+Initializes a new instance of the T\+:\+Operations.\+Client\+Operations.\+Client\+Store\+Operations class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\+Client} & Db client.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file Client\+Store\+Operations.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}!Read\+Distinct\+Async@{Read\+Distinct\+Async}}
+\index{Read\+Distinct\+Async@{Read\+Distinct\+Async}!Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Read\+Distinct\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, string identifier)}{ReadDistinctAsync(IMongoCollection< object > collection, string identifier)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task$<$List$<$object$>$ $>$ Operations.\+Client\+Operations.\+Client\+Store\+Operations.\+Read\+Distinct\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{string}]{identifier}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations_a998a7bdb46661c725cd8ff2af53c1274}{}\label{class_operations_1_1_client_operations_1_1_client_store_operations_a998a7bdb46661c725cd8ff2af53c1274}
+
+
+Reads distinct observations from a mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+A list of values
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em identifier} & Any value to search by distinct on.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_af29e0f8002e77e2edf7630bf6c888724}{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations}.
+
+
+
+Definition at line 78 of file Client\+Store\+Operations.\+cs.
+
+\index{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}!Write\+Comments\+Async@{Write\+Comments\+Async}}
+\index{Write\+Comments\+Async@{Write\+Comments\+Async}!Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Comments\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Comment $>$ data)}{WriteCommentsAsync(IMongoCollection< object > collection, List< Comment > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Operations.\+Client\+Operations.\+Client\+Store\+Operations.\+Write\+Comments\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Comment} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations_aafbb730be7ef14c4ee434266a3600f04}{}\label{class_operations_1_1_client_operations_1_1_client_store_operations_aafbb730be7ef14c4ee434266a3600f04}
+
+
+Writes chunks of comments to a mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+Nothing.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_ac8bf8dadd81dd475a6d5af46f317d5ce}{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations}.
+
+
+
+Definition at line 56 of file Client\+Store\+Operations.\+cs.
+
+\index{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}!Write\+Feed\+Async@{Write\+Feed\+Async}}
+\index{Write\+Feed\+Async@{Write\+Feed\+Async}!Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Feed\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Feed $>$ data)}{WriteFeedAsync(IMongoCollection< object > collection, List< Feed > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Operations.\+Client\+Operations.\+Client\+Store\+Operations.\+Write\+Feed\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Feed} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations_a4819e9a632eab5db4e21644512205377}{}\label{class_operations_1_1_client_operations_1_1_client_store_operations_a4819e9a632eab5db4e21644512205377}
+
+
+Writes chunks of feeds to a mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+Nothing.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_afba8359dddb9d31552c53591eb0dca7f}{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations}.
+
+
+
+Definition at line 67 of file Client\+Store\+Operations.\+cs.
+
+\index{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}!Write\+Posts\+Async@{Write\+Posts\+Async}}
+\index{Write\+Posts\+Async@{Write\+Posts\+Async}!Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Posts\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Post $>$ data)}{WritePostsAsync(IMongoCollection< object > collection, List< Post > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Operations.\+Client\+Operations.\+Client\+Store\+Operations.\+Write\+Posts\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Post} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_operations_1_1_client_operations_1_1_client_store_operations_aee5d81f7d7dc12cffba2f01ec106bb62}{}\label{class_operations_1_1_client_operations_1_1_client_store_operations_aee5d81f7d7dc12cffba2f01ec106bb62}
+
+
+Writes chunks of posts to a mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+Nothing.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_a2743597c6fcc8febf6f9daf7fa3b9674}{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations}.
+
+
+
+Definition at line 45 of file Client\+Store\+Operations.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Operations/\+Client\+Operations/\hyperlink{_client_store_operations_8cs}{Client\+Store\+Operations.\+cs}\end{DoxyCompactItemize}

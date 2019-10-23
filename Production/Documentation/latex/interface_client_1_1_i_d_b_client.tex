@@ -1,0 +1,123 @@
+\hypertarget{interface_client_1_1_i_d_b_client}{}\section{Client.\+I\+D\+B\+Client Interface Reference}
+\label{interface_client_1_1_i_d_b_client}\index{Client.\+I\+D\+B\+Client@{Client.\+I\+D\+B\+Client}}
+
+
+Inheritance diagram for Client.\+I\+D\+B\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{interface_client_1_1_i_d_b_client__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Client.\+I\+D\+B\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{interface_client_1_1_i_d_b_client__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+Mongo\+Database \hyperlink{interface_client_1_1_i_d_b_client_a793702523aa275ef01d40f78a96eff01}{Connect\+To\+Database} (string dbname)
+\item 
+I\+Mongo\+Collection$<$ object $>$ \hyperlink{interface_client_1_1_i_d_b_client_a560e1589d25b74448622fcf04949082e}{Connect\+To\+Collection} (string dbname, string collection)
+\item 
+Task \hyperlink{interface_client_1_1_i_d_b_client_a9fbee0bdce4ec3fc4eb388ba637a855a}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_post}{Post} $>$ data)
+\item 
+Task \hyperlink{interface_client_1_1_i_d_b_client_af2827db82923cb16cd0295ba89105984}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_comment}{Comment} $>$ data)
+\item 
+Task \hyperlink{interface_client_1_1_i_d_b_client_ac53ec8495ee3d6afb28196cb9983d2ac}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_feed}{Feed} $>$ data)
+\item 
+Task \hyperlink{interface_client_1_1_i_d_b_client_ae34d7b6d2b6c624f2dcf537b95aafad1}{Read\+From\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, Filter\+Definition$<$ object $>$ filter=null)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file D\+B\+Client.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Connect\+To\+Collection@{Connect\+To\+Collection}}
+\index{Connect\+To\+Collection@{Connect\+To\+Collection}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Connect\+To\+Collection(string dbname, string collection)}{ConnectToCollection(string dbname, string collection)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Mongo\+Collection$<$object$>$ Client.\+I\+D\+B\+Client.\+Connect\+To\+Collection (
+\begin{DoxyParamCaption}
+\item[{string}]{dbname, }
+\item[{string}]{collection}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_a560e1589d25b74448622fcf04949082e}{}\label{interface_client_1_1_i_d_b_client_a560e1589d25b74448622fcf04949082e}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_a527a51d47e38a6290982bb3162e599fe}{Client.\+D\+B\+Client}.
+
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Connect\+To\+Database@{Connect\+To\+Database}}
+\index{Connect\+To\+Database@{Connect\+To\+Database}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Connect\+To\+Database(string dbname)}{ConnectToDatabase(string dbname)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Mongo\+Database Client.\+I\+D\+B\+Client.\+Connect\+To\+Database (
+\begin{DoxyParamCaption}
+\item[{string}]{dbname}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_a793702523aa275ef01d40f78a96eff01}{}\label{interface_client_1_1_i_d_b_client_a793702523aa275ef01d40f78a96eff01}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_a3e0c25b2cc7d18bc3c5b0ab48f5ce2ea}{Client.\+D\+B\+Client}.
+
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Read\+From\+Collection\+Async@{Read\+From\+Collection\+Async}}
+\index{Read\+From\+Collection\+Async@{Read\+From\+Collection\+Async}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Read\+From\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, Filter\+Definition$<$ object $>$ filter=null)}{ReadFromCollectionAsync(IMongoCollection< object > collection, FilterDefinition< object > filter=null)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Client.\+I\+D\+B\+Client.\+Read\+From\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{Filter\+Definition$<$ object $>$}]{filter = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_ae34d7b6d2b6c624f2dcf537b95aafad1}{}\label{interface_client_1_1_i_d_b_client_ae34d7b6d2b6c624f2dcf537b95aafad1}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_aea382fb64f8e3f44fd52fddb841c09a2}{Client.\+D\+B\+Client}.
+
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Post $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Post > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Client.\+I\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Post} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_a9fbee0bdce4ec3fc4eb388ba637a855a}{}\label{interface_client_1_1_i_d_b_client_a9fbee0bdce4ec3fc4eb388ba637a855a}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_ae627d0670aa2d71fef0d9fd64c8f9328}{Client.\+D\+B\+Client}.
+
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Comment $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Comment > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Client.\+I\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Comment} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_af2827db82923cb16cd0295ba89105984}{}\label{interface_client_1_1_i_d_b_client_af2827db82923cb16cd0295ba89105984}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_a2ad8897568e3885fcd6814366aff1cca}{Client.\+D\+B\+Client}.
+
+\index{Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+I\+D\+B\+Client@{Client\+::\+I\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Feed $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Feed > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Client.\+I\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Feed} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_client_1_1_i_d_b_client_ac53ec8495ee3d6afb28196cb9983d2ac}{}\label{interface_client_1_1_i_d_b_client_ac53ec8495ee3d6afb28196cb9983d2ac}
+
+
+Implemented in \hyperlink{class_client_1_1_d_b_client_a8ce3c915e127e8b510f6441c50a138e4}{Client.\+D\+B\+Client}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Client/\hyperlink{_d_b_client_8cs}{D\+B\+Client.\+cs}\end{DoxyCompactItemize}

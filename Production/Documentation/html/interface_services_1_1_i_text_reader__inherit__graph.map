@@ -1,0 +1,4 @@
+<map id="Services.ITextReader" name="Services.ITextReader">
+<area shape="rect" id="node2" href="$class_services_1_1_proxy_1_1_proxy_information.html" title="{Services.Proxy.ProxyInformation\n|+ GetProxyCredentials\l|+ GetFile()\l+ ReadFromFile()\l+ SetValue()\l}" alt="" coords="5,160,220,267"/>
+<area shape="rect" id="node3" href="$class_services_1_1_token_1_1_token_information.html" title="{Services.Token.TokenInformation\n|+ GetOAuthToken\l|+ GetFile()\l+ ReadFromFile()\l+ SetValue()\l}" alt="" coords="245,160,463,267"/>
+</map>

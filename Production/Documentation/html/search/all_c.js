@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['readdistinctasync',['ReadDistinctAsync',['../interface_operations_1_1_client_operations_1_1_i_client_store_operations.html#af29e0f8002e77e2edf7630bf6c888724',1,'Operations.ClientOperations.IClientStoreOperations.ReadDistinctAsync()'],['../class_operations_1_1_client_operations_1_1_client_store_operations.html#a998a7bdb46661c725cd8ff2af53c1274',1,'Operations.ClientOperations.ClientStoreOperations.ReadDistinctAsync()']]],
+  ['readfromcollectionasync',['ReadFromCollectionAsync',['../interface_client_1_1_i_d_b_client.html#ae34d7b6d2b6c624f2dcf537b95aafad1',1,'Client.IDBClient.ReadFromCollectionAsync()'],['../class_client_1_1_d_b_client.html#aea382fb64f8e3f44fd52fddb841c09a2',1,'Client.DBClient.ReadFromCollectionAsync()']]],
+  ['readfromfile',['ReadFromFile',['../interface_services_1_1_i_text_reader.html#ab635d59d4de79bf41ffe7a184473f416',1,'Services.ITextReader.ReadFromFile()'],['../class_services_1_1_proxy_1_1_proxy_information.html#abb9b80a08af3fd6458a68ad258113664',1,'Services.Proxy.ProxyInformation.ReadFromFile()'],['../class_services_1_1_token_1_1_token_information.html#ac080b926c4adadd033ebad6cea64baf4',1,'Services.Token.TokenInformation.ReadFromFile()']]]
+];

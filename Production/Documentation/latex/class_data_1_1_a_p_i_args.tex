@@ -1,0 +1,118 @@
+\hypertarget{class_data_1_1_a_p_i_args}{}\section{Data.\+A\+P\+I\+Args Class Reference}
+\label{class_data_1_1_a_p_i_args}\index{Data.\+A\+P\+I\+Args@{Data.\+A\+P\+I\+Args}}
+
+
+Collaboration diagram for Data.\+A\+P\+I\+Args\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_data_1_1_a_p_i_args__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_data_1_1_a_p_i_args_aee8dceb9797a0fcab0c700f227cea61a}{Add\+Next\+Key} (string arg\+Type, string key)
+\item 
+string \hyperlink{class_data_1_1_a_p_i_args_a78c8568d1ede724c907a36454dcda88e}{Get\+Args} (string arg\+Type)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, string $>$ \hyperlink{class_data_1_1_a_p_i_args_a86541aeaf3d536fa12c75ac1eb404807}{arg\+Dict}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file A\+P\+I\+Args.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}!Add\+Next\+Key@{Add\+Next\+Key}}
+\index{Add\+Next\+Key@{Add\+Next\+Key}!Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}}
+\subsubsection[{\texorpdfstring{Add\+Next\+Key(string arg\+Type, string key)}{AddNextKey(string argType, string key)}}]{\setlength{\rightskip}{0pt plus 5cm}string Data.\+A\+P\+I\+Args.\+Add\+Next\+Key (
+\begin{DoxyParamCaption}
+\item[{string}]{arg\+Type, }
+\item[{string}]{key}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_1_1_a_p_i_args_aee8dceb9797a0fcab0c700f227cea61a}{}\label{class_data_1_1_a_p_i_args_aee8dceb9797a0fcab0c700f227cea61a}
+
+
+Definition at line 35 of file A\+P\+I\+Args.\+cs.
+
+\index{Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}!Get\+Args@{Get\+Args}}
+\index{Get\+Args@{Get\+Args}!Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}}
+\subsubsection[{\texorpdfstring{Get\+Args(string arg\+Type)}{GetArgs(string argType)}}]{\setlength{\rightskip}{0pt plus 5cm}string Data.\+A\+P\+I\+Args.\+Get\+Args (
+\begin{DoxyParamCaption}
+\item[{string}]{arg\+Type}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_1_1_a_p_i_args_a78c8568d1ede724c907a36454dcda88e}{}\label{class_data_1_1_a_p_i_args_a78c8568d1ede724c907a36454dcda88e}
+
+
+Definition at line 40 of file A\+P\+I\+Args.\+cs.
+
+
+
+Referenced by Main.\+Program.\+Main().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_data_1_1_a_p_i_args_a78c8568d1ede724c907a36454dcda88e_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\index{Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}!arg\+Dict@{arg\+Dict}}
+\index{arg\+Dict@{arg\+Dict}!Data\+::\+A\+P\+I\+Args@{Data\+::\+A\+P\+I\+Args}}
+\subsubsection[{\texorpdfstring{arg\+Dict}{argDict}}]{\setlength{\rightskip}{0pt plus 5cm}Dictionary$<$string, string$>$ Data.\+A\+P\+I\+Args.\+arg\+Dict}\hypertarget{class_data_1_1_a_p_i_args_a86541aeaf3d536fa12c75ac1eb404807}{}\label{class_data_1_1_a_p_i_args_a86541aeaf3d536fa12c75ac1eb404807}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Dictionary<string, string>()
+        \{
+            \{\textcolor{stringliteral}{"DefaultPost"}, \textcolor{stringliteral}{"id,"}+
+                            \textcolor{stringliteral}{"created\_time,"} +
+                            \textcolor{stringliteral}{"status\_type,"} +
+                            \textcolor{stringliteral}{"type,"} +
+                            \textcolor{stringliteral}{"promotion\_status,"} +
+                            \textcolor{stringliteral}{"properties,"} +
+                            \textcolor{stringliteral}{"message,"} +
+                            \textcolor{stringliteral}{"likes.limit(0).summary(true),"} +
+                            \textcolor{stringliteral}{"shares.limit(0).summary(true),"} +
+                            \textcolor{stringliteral}{"comments.limit(0).summary(true)"}\},
+            \{\textcolor{stringliteral}{"DefaultComment"}, \textcolor{stringliteral}{"id,"} +
+                \textcolor{stringliteral}{"created\_time,"} +
+                \textcolor{stringliteral}{"comments\{created\_time,application,message\{tags,to\},"} +
+                \textcolor{stringliteral}{"message\_tags\{id,name\},"} +
+                \textcolor{stringliteral}{"from,"} +
+                \textcolor{stringliteral}{"likes.limit(0).summary(true),"} +
+                \textcolor{stringliteral}{"tags\}"}\},
+            \{\textcolor{stringliteral}{"DefaultFeed"}, \textcolor{stringliteral}{"id,"} +
+                \textcolor{stringliteral}{"created\_time,"} +
+                \textcolor{stringliteral}{"message,"} +
+                \textcolor{stringliteral}{"from,"} +
+                \textcolor{stringliteral}{"likes.limit(0).summary(true),"} +
+                \textcolor{stringliteral}{"comments\{id,created\_time,message,application,"} +
+                \textcolor{stringliteral}{"likes.limit(0).summary(true),from\}"}\}
+        \}
+\end{DoxyCode}
+
+
+Definition at line 7 of file A\+P\+I\+Args.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Data/\hyperlink{_a_p_i_args_8cs}{A\+P\+I\+Args.\+cs}\end{DoxyCompactItemize}

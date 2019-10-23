@@ -1,0 +1,10 @@
+doxygen:
+    stage: deploy
+    tags:
+    - doxygen
+    script:
+    - cd Production/Facebook
+    - doxygen
+    artifacts:
+        paths:
+        - artifacts

@@ -1,0 +1,96 @@
+\hypertarget{interface_operations_1_1_client_operations_1_1_i_client_store_operations}{}\section{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations Interface Reference}
+\label{interface_operations_1_1_client_operations_1_1_i_client_store_operations}\index{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations@{Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations}}
+
+
+Inheritance diagram for Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{interface_operations_1_1_client_operations_1_1_i_client_store_operations__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{interface_operations_1_1_client_operations_1_1_i_client_store_operations__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_a2743597c6fcc8febf6f9daf7fa3b9674}{Write\+Posts\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_post}{Post} $>$ data)
+\item 
+Task \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_ac8bf8dadd81dd475a6d5af46f317d5ce}{Write\+Comments\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_comment}{Comment} $>$ data)
+\item 
+Task \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_afba8359dddb9d31552c53591eb0dca7f}{Write\+Feed\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_feed}{Feed} $>$ data)
+\item 
+Task$<$ List$<$ object $>$ $>$ \hyperlink{interface_operations_1_1_client_operations_1_1_i_client_store_operations_af29e0f8002e77e2edf7630bf6c888724}{Read\+Distinct\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, string identifier)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 18 of file Client\+Store\+Operations.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}!Read\+Distinct\+Async@{Read\+Distinct\+Async}}
+\index{Read\+Distinct\+Async@{Read\+Distinct\+Async}!Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Read\+Distinct\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, string identifier)}{ReadDistinctAsync(IMongoCollection< object > collection, string identifier)}}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<$object$>$ $>$ Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations.\+Read\+Distinct\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{string}]{identifier}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_operations_1_1_client_operations_1_1_i_client_store_operations_af29e0f8002e77e2edf7630bf6c888724}{}\label{interface_operations_1_1_client_operations_1_1_i_client_store_operations_af29e0f8002e77e2edf7630bf6c888724}
+
+
+Implemented in \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_a998a7bdb46661c725cd8ff2af53c1274}{Operations.\+Client\+Operations.\+Client\+Store\+Operations}.
+
+\index{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}!Write\+Comments\+Async@{Write\+Comments\+Async}}
+\index{Write\+Comments\+Async@{Write\+Comments\+Async}!Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Comments\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Comment $>$ data)}{WriteCommentsAsync(IMongoCollection< object > collection, List< Comment > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations.\+Write\+Comments\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Comment} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_operations_1_1_client_operations_1_1_i_client_store_operations_ac8bf8dadd81dd475a6d5af46f317d5ce}{}\label{interface_operations_1_1_client_operations_1_1_i_client_store_operations_ac8bf8dadd81dd475a6d5af46f317d5ce}
+
+
+Implemented in \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_aafbb730be7ef14c4ee434266a3600f04}{Operations.\+Client\+Operations.\+Client\+Store\+Operations}.
+
+\index{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}!Write\+Feed\+Async@{Write\+Feed\+Async}}
+\index{Write\+Feed\+Async@{Write\+Feed\+Async}!Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Feed\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Feed $>$ data)}{WriteFeedAsync(IMongoCollection< object > collection, List< Feed > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations.\+Write\+Feed\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Feed} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_operations_1_1_client_operations_1_1_i_client_store_operations_afba8359dddb9d31552c53591eb0dca7f}{}\label{interface_operations_1_1_client_operations_1_1_i_client_store_operations_afba8359dddb9d31552c53591eb0dca7f}
+
+
+Implemented in \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_a4819e9a632eab5db4e21644512205377}{Operations.\+Client\+Operations.\+Client\+Store\+Operations}.
+
+\index{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}!Write\+Posts\+Async@{Write\+Posts\+Async}}
+\index{Write\+Posts\+Async@{Write\+Posts\+Async}!Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations@{Operations\+::\+Client\+Operations\+::\+I\+Client\+Store\+Operations}}
+\subsubsection[{\texorpdfstring{Write\+Posts\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Post $>$ data)}{WritePostsAsync(IMongoCollection< object > collection, List< Post > data)}}]{\setlength{\rightskip}{0pt plus 5cm}Task Operations.\+Client\+Operations.\+I\+Client\+Store\+Operations.\+Write\+Posts\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Post} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{interface_operations_1_1_client_operations_1_1_i_client_store_operations_a2743597c6fcc8febf6f9daf7fa3b9674}{}\label{interface_operations_1_1_client_operations_1_1_i_client_store_operations_a2743597c6fcc8febf6f9daf7fa3b9674}
+
+
+Implemented in \hyperlink{class_operations_1_1_client_operations_1_1_client_store_operations_aee5d81f7d7dc12cffba2f01ec106bb62}{Operations.\+Client\+Operations.\+Client\+Store\+Operations}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Operations/\+Client\+Operations/\hyperlink{_client_store_operations_8cs}{Client\+Store\+Operations.\+cs}\end{DoxyCompactItemize}

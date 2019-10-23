@@ -1,0 +1,383 @@
+\hypertarget{class_client_1_1_d_b_client}{}\section{Client.\+D\+B\+Client Class Reference}
+\label{class_client_1_1_d_b_client}\index{Client.\+D\+B\+Client@{Client.\+D\+B\+Client}}
+
+
+Inheritance diagram for Client.\+D\+B\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_client_1_1_d_b_client__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Client.\+D\+B\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_client_1_1_d_b_client__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client_1_1_d_b_client_a522d138a4a6e287d6e0f4a4e785fc1f6}{D\+B\+Client} ()
+\begin{DoxyCompactList}\small\item\em Establishes trivial connection with localhost and returns an instance of a mongodb client \end{DoxyCompactList}\item 
+\hyperlink{class_client_1_1_d_b_client_add46a7470fa6c5f9ecf32339428daec5}{D\+B\+Client} (string host, int port)
+\begin{DoxyCompactList}\small\item\em Establishes trivial connection with localhost and returns an instance of a mongodb client, with user-\/specified connection parameters. \end{DoxyCompactList}\item 
+\hyperlink{class_client_1_1_d_b_client_a2f1223816b5516c8efa71a0ce1f057a7}{D\+B\+Client} (string db, string usr, string pwd)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Client.\+D\+B\+Client class. \end{DoxyCompactList}\item 
+\hyperlink{class_client_1_1_d_b_client_a69fcdf1545a5cc69b10cba2c5fc51ef2}{D\+B\+Client} (string host, int port, string db, string usr, string pwd)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Client.\+D\+B\+Client class. \end{DoxyCompactList}\item 
+I\+Mongo\+Database \hyperlink{class_client_1_1_d_b_client_a3e0c25b2cc7d18bc3c5b0ab48f5ce2ea}{Connect\+To\+Database} (string dbname)
+\begin{DoxyCompactList}\small\item\em Connects to database. \end{DoxyCompactList}\item 
+I\+Mongo\+Collection$<$ object $>$ \hyperlink{class_client_1_1_d_b_client_a527a51d47e38a6290982bb3162e599fe}{Connect\+To\+Collection} (string dbname, string collection)
+\begin{DoxyCompactList}\small\item\em Connects to collection. \end{DoxyCompactList}\item 
+async Task \hyperlink{class_client_1_1_d_b_client_ae627d0670aa2d71fef0d9fd64c8f9328}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_post}{Post} $>$ data)
+\begin{DoxyCompactList}\small\item\em Asynchronously writes a List of Post-\/objects to a Mongo\+DB collection \end{DoxyCompactList}\item 
+async Task \hyperlink{class_client_1_1_d_b_client_a2ad8897568e3885fcd6814366aff1cca}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_comment}{Comment} $>$ data)
+\begin{DoxyCompactList}\small\item\em Asynchronously writes a List of Comment-\/objects to a Mongo\+DB collection \end{DoxyCompactList}\item 
+async Task \hyperlink{class_client_1_1_d_b_client_a8ce3c915e127e8b510f6441c50a138e4}{Write\+To\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, List$<$ \hyperlink{class_data_1_1_facebook_objects_1_1_feed}{Feed} $>$ data)
+\begin{DoxyCompactList}\small\item\em Asynchronously writes a List of Feed-\/objects to a Mongo\+DB collection \end{DoxyCompactList}\item 
+async Task \hyperlink{class_client_1_1_d_b_client_aea382fb64f8e3f44fd52fddb841c09a2}{Read\+From\+Collection\+Async} (I\+Mongo\+Collection$<$ object $>$ collection, Filter\+Definition$<$ object $>$ filter=null)
+\begin{DoxyCompactList}\small\item\em Reads from collection async. \end{DoxyCompactList}\item 
+long \hyperlink{class_client_1_1_d_b_client_a488a378843f1a501333a86dd9d09851e}{Call\+Async\+Count\+Documents\+In\+Collection} (I\+Mongo\+Collection$<$ Bson\+Document $>$ collection)
+\begin{DoxyCompactList}\small\item\em Call method to Async\+Count\+Documents\+In\+Collection \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file D\+B\+Client.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!D\+B\+Client@{D\+B\+Client}}
+\index{D\+B\+Client@{D\+B\+Client}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{D\+B\+Client()}{DBClient()}}]{\setlength{\rightskip}{0pt plus 5cm}Client.\+D\+B\+Client.\+D\+B\+Client (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a522d138a4a6e287d6e0f4a4e785fc1f6}{}\label{class_client_1_1_d_b_client_a522d138a4a6e287d6e0f4a4e785fc1f6}
+
+
+Establishes trivial connection with localhost and returns an instance of a mongodb client 
+
+\begin{DoxyReturn}{Returns}
+A connected instance of a Mongo\+Client
+\end{DoxyReturn}
+
+
+Definition at line 51 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!D\+B\+Client@{D\+B\+Client}}
+\index{D\+B\+Client@{D\+B\+Client}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{D\+B\+Client(string host, int port)}{DBClient(string host, int port)}}]{\setlength{\rightskip}{0pt plus 5cm}Client.\+D\+B\+Client.\+D\+B\+Client (
+\begin{DoxyParamCaption}
+\item[{string}]{host, }
+\item[{int}]{port}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_add46a7470fa6c5f9ecf32339428daec5}{}\label{class_client_1_1_d_b_client_add46a7470fa6c5f9ecf32339428daec5}
+
+
+Establishes trivial connection with localhost and returns an instance of a mongodb client, with user-\/specified connection parameters. 
+
+\begin{DoxyReturn}{Returns}
+A connected instance of a Mongo\+Client
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em host} & Host to connect to\\
+\hline
+{\em port} & Port number to connect to\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 67 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!D\+B\+Client@{D\+B\+Client}}
+\index{D\+B\+Client@{D\+B\+Client}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{D\+B\+Client(string db, string usr, string pwd)}{DBClient(string db, string usr, string pwd)}}]{\setlength{\rightskip}{0pt plus 5cm}Client.\+D\+B\+Client.\+D\+B\+Client (
+\begin{DoxyParamCaption}
+\item[{string}]{db, }
+\item[{string}]{usr, }
+\item[{string}]{pwd}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a2f1223816b5516c8efa71a0ce1f057a7}{}\label{class_client_1_1_d_b_client_a2f1223816b5516c8efa71a0ce1f057a7}
+
+
+Initializes a new instance of the T\+:\+Client.\+D\+B\+Client class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & Database\\
+\hline
+{\em usr} & Username\\
+\hline
+{\em pwd} & Password\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!D\+B\+Client@{D\+B\+Client}}
+\index{D\+B\+Client@{D\+B\+Client}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{D\+B\+Client(string host, int port, string db, string usr, string pwd)}{DBClient(string host, int port, string db, string usr, string pwd)}}]{\setlength{\rightskip}{0pt plus 5cm}Client.\+D\+B\+Client.\+D\+B\+Client (
+\begin{DoxyParamCaption}
+\item[{string}]{host, }
+\item[{int}]{port, }
+\item[{string}]{db, }
+\item[{string}]{usr, }
+\item[{string}]{pwd}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a69fcdf1545a5cc69b10cba2c5fc51ef2}{}\label{class_client_1_1_d_b_client_a69fcdf1545a5cc69b10cba2c5fc51ef2}
+
+
+Initializes a new instance of the T\+:\+Client.\+D\+B\+Client class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em host} & Host.\\
+\hline
+{\em port} & Port.\\
+\hline
+{\em db} & Database\\
+\hline
+{\em usr} & Username\\
+\hline
+{\em pwd} & Password\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 103 of file D\+B\+Client.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Call\+Async\+Count\+Documents\+In\+Collection@{Call\+Async\+Count\+Documents\+In\+Collection}}
+\index{Call\+Async\+Count\+Documents\+In\+Collection@{Call\+Async\+Count\+Documents\+In\+Collection}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Call\+Async\+Count\+Documents\+In\+Collection(\+I\+Mongo\+Collection$<$ Bson\+Document $>$ collection)}{CallAsyncCountDocumentsInCollection(IMongoCollection< BsonDocument > collection)}}]{\setlength{\rightskip}{0pt plus 5cm}long Client.\+D\+B\+Client.\+Call\+Async\+Count\+Documents\+In\+Collection (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ Bson\+Document $>$}]{collection}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a488a378843f1a501333a86dd9d09851e}{}\label{class_client_1_1_d_b_client_a488a378843f1a501333a86dd9d09851e}
+
+
+Call method to Async\+Count\+Documents\+In\+Collection 
+
+\begin{DoxyReturn}{Returns}
+A numerical value\+: Number of documents
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 230 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Connect\+To\+Collection@{Connect\+To\+Collection}}
+\index{Connect\+To\+Collection@{Connect\+To\+Collection}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Connect\+To\+Collection(string dbname, string collection)}{ConnectToCollection(string dbname, string collection)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Mongo\+Collection$<$object$>$ Client.\+D\+B\+Client.\+Connect\+To\+Collection (
+\begin{DoxyParamCaption}
+\item[{string}]{dbname, }
+\item[{string}]{collection}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a527a51d47e38a6290982bb3162e599fe}{}\label{class_client_1_1_d_b_client_a527a51d47e38a6290982bb3162e599fe}
+
+
+Connects to collection. 
+
+\begin{DoxyReturn}{Returns}
+A connected instance of a Mongo\+Client.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dbname} & Dbname.\\
+\hline
+{\em collection} & Collection.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_a560e1589d25b74448622fcf04949082e}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 130 of file D\+B\+Client.\+cs.
+
+
+
+Referenced by Main.\+Program.\+Main().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_client_1_1_d_b_client_a527a51d47e38a6290982bb3162e599fe_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Connect\+To\+Database@{Connect\+To\+Database}}
+\index{Connect\+To\+Database@{Connect\+To\+Database}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Connect\+To\+Database(string dbname)}{ConnectToDatabase(string dbname)}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Mongo\+Database Client.\+D\+B\+Client.\+Connect\+To\+Database (
+\begin{DoxyParamCaption}
+\item[{string}]{dbname}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a3e0c25b2cc7d18bc3c5b0ab48f5ce2ea}{}\label{class_client_1_1_d_b_client_a3e0c25b2cc7d18bc3c5b0ab48f5ce2ea}
+
+
+Connects to database. 
+
+\begin{DoxyReturn}{Returns}
+A connected instance of a Mongo\+Client
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dbname} & Dbname.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_a793702523aa275ef01d40f78a96eff01}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 119 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Read\+From\+Collection\+Async@{Read\+From\+Collection\+Async}}
+\index{Read\+From\+Collection\+Async@{Read\+From\+Collection\+Async}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Read\+From\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, Filter\+Definition$<$ object $>$ filter=null)}{ReadFromCollectionAsync(IMongoCollection< object > collection, FilterDefinition< object > filter=null)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Client.\+D\+B\+Client.\+Read\+From\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{Filter\+Definition$<$ object $>$}]{filter = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_aea382fb64f8e3f44fd52fddb841c09a2}{}\label{class_client_1_1_d_b_client_aea382fb64f8e3f44fd52fddb841c09a2}
+
+
+Reads from collection async. 
+
+\begin{DoxyReturn}{Returns}
+The from collection async.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em filter} & Filter.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_ae34d7b6d2b6c624f2dcf537b95aafad1}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 199 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Post $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Post > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Client.\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Post} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_ae627d0670aa2d71fef0d9fd64c8f9328}{}\label{class_client_1_1_d_b_client_ae627d0670aa2d71fef0d9fd64c8f9328}
+
+
+Asynchronously writes a List of Post-\/objects to a Mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+The to collection async.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_a9fbee0bdce4ec3fc4eb388ba637a855a}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 142 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Comment $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Comment > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Client.\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Comment} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a2ad8897568e3885fcd6814366aff1cca}{}\label{class_client_1_1_d_b_client_a2ad8897568e3885fcd6814366aff1cca}
+
+
+Asynchronously writes a List of Comment-\/objects to a Mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+The to collection async.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_af2827db82923cb16cd0295ba89105984}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 161 of file D\+B\+Client.\+cs.
+
+\index{Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}!Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}}
+\index{Write\+To\+Collection\+Async@{Write\+To\+Collection\+Async}!Client\+::\+D\+B\+Client@{Client\+::\+D\+B\+Client}}
+\subsubsection[{\texorpdfstring{Write\+To\+Collection\+Async(\+I\+Mongo\+Collection$<$ object $>$ collection, List$<$ Feed $>$ data)}{WriteToCollectionAsync(IMongoCollection< object > collection, List< Feed > data)}}]{\setlength{\rightskip}{0pt plus 5cm}async Task Client.\+D\+B\+Client.\+Write\+To\+Collection\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Mongo\+Collection$<$ object $>$}]{collection, }
+\item[{List$<$ {\bf Feed} $>$}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{class_client_1_1_d_b_client_a8ce3c915e127e8b510f6441c50a138e4}{}\label{class_client_1_1_d_b_client_a8ce3c915e127e8b510f6441c50a138e4}
+
+
+Asynchronously writes a List of Feed-\/objects to a Mongo\+DB collection 
+
+\begin{DoxyReturn}{Returns}
+The to collection async.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em collection} & Collection.\\
+\hline
+{\em data} & \hyperlink{namespace_data}{Data}.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_client_1_1_i_d_b_client_ac53ec8495ee3d6afb28196cb9983d2ac}{Client.\+I\+D\+B\+Client}.
+
+
+
+Definition at line 180 of file D\+B\+Client.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Facebook\+Application/\+Client/\hyperlink{_d_b_client_8cs}{D\+B\+Client.\+cs}\end{DoxyCompactItemize}
