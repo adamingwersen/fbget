@@ -9,7 +9,7 @@ This application consists of an extensive library of modules/methods for:
 * Proxy Handling methods
 
 ## Purpose
-The aim of this software-project is to decode and store all relevant data of the Facebook Graph API in a general solution that can take any argument to page-name (e.g. "youseedanmark"). 
+The aim of this software-project is to decode and store all relevant data of the Facebook Graph API in a general solution that can take any argument to page-name. 
 
 Ultimately this data is to be used for improvement on online/social-media prescence by identification of unsatisfied customers and train a neural-net on customer reply text-data - this should help us understand how social dynamics and customer interaction can be used in a customer servivce context.
 
